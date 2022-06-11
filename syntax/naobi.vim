@@ -2,13 +2,17 @@ syntax keyword naobiTools TODO FIXME NOTE
 
 syntax keyword naobiKeywords
     \ in
+    \ function
+    \ workflow
+    \ invoke
+    \ target
+
 
 syntax keyword naobiEvents
     \ event
     \ arise
-
-syntax keyword naobiFunction
-    \ function
+    \ always
+    \ once
 
 syntax keyword naobiTypes
     \ integer
@@ -55,6 +59,8 @@ highlight default link naobiTypes Type
 highlight default link naobiExceptions Exception
 highlight default link naobiComment Comment
 highlight default link naobiEvents Statement
+highlight default link naobiControl Conditional
+highlight default link naobiTools Todo
 
 
 highlight default link naobiOperator Operator
