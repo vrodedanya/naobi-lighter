@@ -40,7 +40,7 @@ syntax keyword naobiOperator
     \ /
     \ %
 
-syntax region naobiComment start="//" end = "$"
+syntax region naobiComment start="//" end = "$" contains=naobiTools
     
 syntax match naobiNumber "\v<\d+>"
 syntax match naobiNumber "\v<\d+\.\d+>"
