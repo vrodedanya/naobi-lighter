@@ -36,7 +36,7 @@ syntax keyword naobiOperator
     \ /
     \ %
 
-syntax region naobiComment start=/\/\// oneline
+syntax region naobiComment start="//" end = "$"
     
 syntax match naobiNumber "\v<\d+>"
 syntax match naobiNumber "\v<\d+\.\d+>"
