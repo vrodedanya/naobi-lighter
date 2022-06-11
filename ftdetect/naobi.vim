@@ -1,1 +1,1 @@
-autocmd BufNewFile,BufRead *.swift setfiletype naobi
+autocmd BufNewFile,BufRead *.naobi setfiletype naobi
